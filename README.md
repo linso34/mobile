@@ -100,5 +100,54 @@ Now, your app has complete flows for user sign-in and registration. Since you ha
 
 3. Use your own Components + Amplify API calls
 
+You can build your own UI Components and the API calls using Amplify. You would need to include:
+
+- `import { Auth } from 'aws-amplify';`
+Using the AWS Amplify Auth API Calls:
+
+- SignIn
+```
+import { Auth } from 'aws-amplify';
+
+Auth.signIn(username, password)
+    .then(user => console.log(user))
+    .catch(err => console.log(err));
+
+// If MFA is enabled, sign-in should be confirmed with the congirmation code
+// `user` : Return object from Auth.signIn()
+// `code` : Confirmation code  
+// `mfaType` : MFA Type e.g. SMS, TOTP.
+Auth.confirmSignIn(user, code, mfaType)
+    .then(data => console.log(data))
+    .catch(err => console.log(err));
+```
+
+- SignUp
+```
+import { Auth } from 'aws-amplify';
+
+Auth.signUp({
+    username,
+    password,
+    attributes: {
+        email,          // optional
+        phone_number,   // optional - E.164 number convention
+        // other custom attributes 
+    },
+    validationData: []  //optional
+    })
+    .then(data => console.log(data))
+    .catch(err => console.log(err));
+
+// After retrieveing the confirmation code from the user
+Auth.confirmSignUp(username, code, {
+    // Optional. Force user confirmation irrespective of existing alias. By default set to True.
+    forceAliasCreation: true    
+}).then(data => console.log(data))
+  .catch(err => console.log(err));
+  ```
+- For complete list of API calls, refer to [Reac Native Documentation}(https://aws-amplify.github.io/amplify-js/media/authentication_guide)
+
+
 
 
