@@ -1,12 +1,7 @@
 # Mobile Workshop
 
-1. Building a simple react native app with AWS Amplify, using Authentication
-2. Building a chatbot using Amazon Lex
-3. Integrating the chatbot in the simple application
-
-
-1. Building a simple "Hello World!" react native app with Authentication
-  1.1 Prerequisites
+## Building a simple "Hello World!" react native app with Authentication
+  ### Prerequisites
   
   - [XCode](https://developer.apple.com/xcode/)/[Android Studio](https://developer.android.com/studio/)
   - Installing an IDE, such as [Visual Cloud Studio](https://code.visualstudio.com/download)
@@ -21,5 +16,5 @@
     On macOS, it is recommended to install it using [Homebrew](https://brew.sh/)
     `brew install watchman`
   
-  1.2 Create the application
-  1.3 Integration with AWS Amplify
+## Create the application
+## Integration with AWS Amplify
