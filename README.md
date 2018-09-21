@@ -80,6 +80,18 @@ Amplify.configure(aws_exports)
 ### Adding Authentication
 1. Using Authenticator Component
 
+For React and React Native apps, the simplest way to add authentication flows into your app is to use withAuthenticator High Order Component. 
+
+withAuthenticator automatically detects the authentication state and updates the UI. If the user is signed in, the underlying component (typically your app’s main component) is displayed otherwise signing/signup controls is displayed.
+
+- Configure your application
+```
+import { withAuthenticator } from 'aws-amplify-react-native';
+...
+export default withAuthenticator(App); # export default withAuthenticator(class App extends React.Component {
+```
+The withAuthenticator component adds Sign Up, Sign In with MFA and Sign Out capabilites to your app out of box.
+Now, your app has complete flows for user sign-in and registration. Since you have wrapped your App with withAuthenticator, only signed in users can access your app. The routing for login pages and giving access to your App Component will be managed automatically.
 
 2. Use your own Components + Amplify API calls
 
