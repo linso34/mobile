@@ -63,9 +63,7 @@ Please tell us about your project
 ? Do you want to use an AWS profile? Yes
 ? Please choose the profile you want to use default
 ```
-- Add Cognito in your backend using Amplify CLI
-` amplify auth add`
-- Then push hthe configuration to build the resources and build it in AWS
+- Then push the configuration to build the resources
 ` amplify push`
 When pushing the configuration, a configuration file for your app is put in your configured source directory called aws-exports.js
 - Update your App.js to import Amplify and the configuration
@@ -78,7 +76,14 @@ Amplify.configure(aws_exports)
 ` npm run android # npm run ios`
 
 ### Adding Authentication
-1. Using Authenticator Component
+1. Add the authentication component to your AWS environment, Cognito, using AWS Amplify
+
+- Add Cognito in your backend using Amplify CLI
+` amplify auth add`
+- Then push the configuration to build the resources and build it in AWS
+` amplify push`
+
+2. Using Authenticator Component
 
 For React and React Native apps, the simplest way to add authentication flows into your app is to use withAuthenticator High Order Component. 
 
@@ -93,7 +98,7 @@ export default withAuthenticator(App); # export default withAuthenticator(class 
 The withAuthenticator component adds Sign Up, Sign In with MFA and Sign Out capabilites to your app out of box.
 Now, your app has complete flows for user sign-in and registration. Since you have wrapped your App with withAuthenticator, only signed in users can access your app. The routing for login pages and giving access to your App Component will be managed automatically.
 
-2. Use your own Components + Amplify API calls
+3. Use your own Components + Amplify API calls
 
 
 
