@@ -151,7 +151,7 @@ Amplify.configure(aws_exports)
 - Run your application
 ` npm run android # npm run ios`
 
-### Adding Authentication
+### Lesson 2 Adding Authentication using AWS Amplify
 1. Add the authentication component to your AWS environment, Cognito, using AWS Amplify
 
 - Add Cognito in your backend using Amplify CLI
@@ -224,6 +224,23 @@ Auth.confirmSignUp(username, code, {
   ```
 - For complete list of API calls, refer to [Reac Native Documentation}(https://aws-amplify.github.io/amplify-js/media/authentication_guide)
 
+### Lesson 3 Adding Cloud Storage capabilities using AWS Amplify
 
+1. Add the storage component to your AWS environment using AWS Amplify
 
+You can either implement a storage for content (Images, audio, video...) or a NoSQL database.
+
+` amplify storage add`
+
+Select the appropriate options.
+
+- Then push the configuration to build the resources and build it in AWS
+` amplify push`
+
+2. Using the Amplify React Native Photo Picker Component
+
+- Configure your application
+``` 
+
+```
 
