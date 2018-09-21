@@ -1,5 +1,7 @@
 # Mobile Workshop
 
+The objective is to start to get familiar with AWS Mobile services, including AWS Amplify and building a simple chatbot mobile application.
+
 ## Building a simple "Hello World!" react native app with Authentication
   ### Prerequisites
   
