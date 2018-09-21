@@ -62,7 +62,7 @@ AWS Mobile Hub helps to create the below "features" and the related services in 
 
 This can be done either on the AWS Console or by using the AWS Mobile CLI.
 
-##### Installing & configuring a new mobile hub project.
+#### Installing & configuring a new mobile hub project.
 
 - Installing the AWS Mobile CLI
 
@@ -116,7 +116,7 @@ AWS Amplify helps to create the AWS resources for the below category:
 * Interactions - To enable AI-powered chatbots
 
 
-##### Integrate with AWS Amplify
+#### Integrate with AWS Amplify
 
 - Install the dependencies
 ` npm install`
