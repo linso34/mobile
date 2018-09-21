@@ -45,7 +45,7 @@ We have a couple of questions to ask you about how you'd like to name your app:
 AWS provides 2 services to simplify the development of Mobile applications and especially to create the backend environment in the cloud, AWS Mobile Hub and AWS Amplify.
 You the workshop you can use either one of them.
 
-1. AWS Mobile Hub
+#### 1. AWS Mobile Hub
 
 AWS Mobile Hub provides an integrated console that helps you build, test, and monitor your mobile apps. Use the console to choose the features you want to include in your app. Mobile Hub then provisions and configures the necessary AWS services on your behalf and creates a working sample app for you.
 
@@ -62,7 +62,7 @@ AWS Mobile Hub helps to create the below "features" and the related services in 
 
 This can be done either on the AWS Console or by using the AWS Mobile CLI.
 
-#### Installing & configuring a new mobile hub project.
+##### Installing & configuring a new mobile hub project.
 
 - Installing the AWS Mobile CLI
 
@@ -99,7 +99,7 @@ Now that the project is successfully created, we can view it in the AWS Console 
 
 `awsmobile console`
 
-2. AWS Amplify
+#### 2. AWS Amplify
 
 AWS Amplify is a JavaScript library for frontend and mobile developers building cloud-enabled applications.
 AWS Amplify provides a declarative and easy-to-use interface across different categories of cloud operations. AWS Amplify goes well with any JavaScript based frontend workflow, and React Native for mobile developers.
@@ -116,7 +116,7 @@ AWS Amplify helps to create the AWS resources for the below category:
 * Interactions - To enable AI-powered chatbots
 
 
-#### Integrate with AWS Amplify
+##### Integrate with AWS Amplify
 
 - Install the dependencies
 ` npm install`
