@@ -1,4 +1,6 @@
 ## Prerequisites
+
+Before starting the workshop, ensure you have the below components installed.
   
 - [XCode](https://developer.apple.com/xcode/)/[Android Studio](https://developer.android.com/studio/)
 - Installing an IDE, such as [Visual Cloud Studio](https://code.visualstudio.com/download)
@@ -17,3 +19,5 @@
     npm install -g @aws-amplify/cli
     amplify configure
     ```
+
+Alternatively, you can use AWS Cloud9 environment - Coming up soon.
