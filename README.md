@@ -151,7 +151,7 @@ Amplify.configure(aws_exports)
 - Run your application
 ` npm run android # npm run ios`
 
-### Lesson 2 Adding Authentication using AWS Amplify Authentication Component
+### Lesson 2 - Adding Authentication using AWS Amplify Authentication Component
 1. Add the authentication component to your AWS environment, Cognito, using AWS Amplify
 
 - Add Cognito in your backend using Amplify CLI
@@ -224,7 +224,7 @@ Auth.confirmSignUp(username, code, {
   ```
 - For complete list of API calls, refer to [Reac Native Documentation}(https://aws-amplify.github.io/amplify-js/media/authentication_guide)
 
-### Lesson 3 Adding Cloud Storage capabilities using AWS Amplify Storage Component - Optional
+### Lesson 3 - Adding Cloud Storage capabilities using AWS Amplify Storage Component - Optional
 
 1. Add the storage component to your AWS environment using AWS Amplify
 
@@ -257,7 +257,7 @@ AWS Amplify Storage components provides API calls to:
 
 To learn more on the AWS Amplfy Storage components please refer to [AWS Amplify Storage Component](https://aws-amplify.github.io/amplify-js/media/storage_guide.html)
 
-### Lesson 4 Adding API Calls capabilities using AWS Amplify API Component - Optional
+### Lesson 4 - Adding API Calls capabilities using AWS Amplify API Component - Optional
 
 AWS Amplify provides a solution to making HTTP REST and GraphQL endpoints. The following example will cover REST APIs.
 To learn more on the AWS Amplify API components, please refer to [AWS Amplify API](https://aws-amplify.github.io/amplify-js/media/api_guide)
