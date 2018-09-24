@@ -6,8 +6,8 @@ The objective is to start to get familiar with AWS Mobile services, including AW
 
 ### Overall target architecture of the workshop
 
-<p align="center"
-  <img src="./images/MobileWorkshop_Lex.jpg" />
+<p align="center">
+  <img src="../images/MobileWorkshop_Lex.jpg" />
 </p>
 
 ### [1. Prerequisites](./Prerequisites/)
