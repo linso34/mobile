@@ -6,7 +6,7 @@ The objective is to start to get familiar with AWS Mobile services, including AW
 
 ### [1. Prerequisites](./Prerequisites/)
   
-### [2. Create the application](./createApp/)
+### [2. Create a React Native application](./createApp/)
 
 ### [3. Lesson 1 - AWS Mobile Hub and AWS Amplify](./lesson1/)
 
