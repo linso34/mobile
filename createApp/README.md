@@ -1,5 +1,11 @@
 # Create a React Native Application
 
+## 1. Architecture that will be achieved
+
+![Architecture](../images/MobileWorkshop_Hello.jpg)
+
+## 2. Steps to create a simple React Native application
+
 - Using create-react-native-app
 ` create-react-native-app <appName> `
 - cd into your new app dir.
