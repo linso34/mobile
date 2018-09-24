@@ -1,4 +1,4 @@
-## Prerequisites
+# Prerequisites
 
 Before starting the workshop, ensure you have the below components installed.
   
