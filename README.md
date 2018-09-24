@@ -241,6 +241,21 @@ Select the appropriate options.
 
 - Configure your application
 ``` 
-
+Storage.put('yourFile.txt', 'your key', {
+        level: 'private', //access control level
+        contentType: 'text/plain' 
+    })
+    .then (result => console.log(result))
+    .catch(err => console.log(err));
 ```
+
+AWS Amplify Storage components provides API calls to:
+- PUT
+- GET
+- REMOVE
+- LIST
+
+To learn more on the AWS Amplfy Storage components please refer to [AWS Amplify Storage Component](https://aws-amplify.github.io/amplify-js/media/storage_guide.html)
+
+
 
