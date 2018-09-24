@@ -1,5 +1,13 @@
 # Lesson 2 - Adding Authentication using AWS Amplify Authentication Component
 
+## 1. Architecture that will be achieved
+
+<p align="center">
+    <img src="../images/MobileWorkshop_Auth.jpg" />
+</p>
+
+## 2. Steps to add Authentication
+
 1. Add the authentication component to your AWS environment, Cognito, using AWS Amplify
 
 - Add Cognito in your backend using Amplify CLI
