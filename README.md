@@ -262,6 +262,13 @@ To learn more on the AWS Amplfy Storage components please refer to [AWS Amplify 
 AWS Amplify provides a solution to making HTTP REST and GraphQL endpoints. The following example will cover REST APIs.
 To learn more on the AWS Amplify API components, please refer to [AWS Amplify API](https://aws-amplify.github.io/amplify-js/media/api_guide)
 
+The REST API Calls covered by Ampify are:
+- GET
+- PUT
+- POST
+- DELETE
+- HEAD
+
 1. Add an API component to your AWS environment.
 
 ```
