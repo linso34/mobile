@@ -3,7 +3,7 @@
 The objective is to start to get familiar with AWS Mobile services, including AWS Amplify and building a simple chatbot mobile application.
 
 ## Building a simple "Hello World!" react native app with Authentication
-  ### Prerequisites
+  ### [Prerequisites](./Prerequisites/)
   
 - [XCode](https://developer.apple.com/xcode/)/[Android Studio](https://developer.android.com/studio/)
 - Installing an IDE, such as [Visual Cloud Studio](https://code.visualstudio.com/download)
