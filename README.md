@@ -371,3 +371,6 @@ When reloading the application on your device or on the emulator, you will be ab
 [11:47:56]   "url": "/items",
 [11:47:56] }
 ```
+
+### Lesson 5 - Adding Interactions capabilities using AWS Amplify
+
