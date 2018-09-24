@@ -14,7 +14,7 @@ Creation of a basic React Native application
 
 ### [3. Lesson 1 - Introduction to AWS Mobile Hub and AWS Amplify](./lesson1/)
 
-Introduction to AWS Mobile Hub and AWS Amplify
+Introduction to AWS Mobile Hub and AWS Amplify to help developing your cloud enabled mobile applications.
 
 ### [4. Lesson 2 - Adding Authentication using AWS Amplify Authentication Component](./lesson2/)
 
