@@ -1,5 +1,13 @@
 # Lesson 3 - Adding Cloud Storage capabilities using AWS Amplify Storage Component - Optional
 
+## 1. Architecture that will be achieved
+
+<p align="center">
+        <img src="../images/MobileWorkshop_S3.jpg" />
+</p>
+
+## 2. Steps to add Storage
+
 1. Add the storage component to your AWS environment using AWS Amplify
 
 You can either implement a storage for content (Images, audio, video...) or a NoSQL database.
