@@ -28,6 +28,6 @@ Bringing storage capabilities to your application.
 
 Adding interactions to your backend through APIs.
 
-### [7. Lesson 5 - Adding Interactions capabilities using AWS Amplify](./lesson5)
+### [7. Lesson 5 - Adding Chatbot Interactions capabilities using AWS Amplify](./lesson5)
 
 Adding interactions with chatbot.
