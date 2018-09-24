@@ -3,7 +3,7 @@
 ## 1. Architecture that will be achieved
 
 <p align="center">
-      <img src="../images/MobileWorkshop_API" />
+      <img src="../images/MobileWorkshop_API.jpg" />
 </p>
 
 ## 2. Steps to add API capabilities
