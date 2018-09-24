@@ -2,7 +2,9 @@
 
 ## 1. Architecture that will be achieved
 
-![Architecture](../images/MobileWorkshop_Hello.jpg)
+<p align="center">
+  ![Architecture](../images/MobileWorkshop_Hello.jpg)
+</p>
 
 ## 2. Steps to create a simple React Native application
 
