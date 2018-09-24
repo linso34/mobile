@@ -4,6 +4,10 @@ The objective is to start to get familiar with AWS Mobile services, including AW
 
 ## Building a simple "Hello World!" react native app with Authentication
 
+### Overall target architecture of the workshop
+
+![Architecture](./images/MobileWorkshop_Lex.jpg)
+
 ### [1. Prerequisites](./Prerequisites/)
 
 To setup the environment with all the requirements.
