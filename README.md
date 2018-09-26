@@ -37,3 +37,5 @@ Adding interactions to your backend through APIs.
 ### [7. Lesson 5 - Adding Chatbot Interactions capabilities using AWS Amplify](./lesson5)
 
 Adding interactions with chatbot.
+
+### 8. Clean up your environment
