@@ -1,8 +1,6 @@
-# Create a Mobile Application with AWS backend - Workshop
+# Building a simple "ChatBot" application in react native with AWS
 
 The objective is to start to get familiar with AWS Mobile services, including AWS Amplify and building a simple chatbot mobile application.
-
-## Building a simple "Hello World!" react native app with Authentication
 
 ### Overall target architecture of the workshop
 
