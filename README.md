@@ -1,4 +1,4 @@
-# Mobile Workshop
+# Create a Mobile Application with AWS backend - Workshop
 
 The objective is to start to get familiar with AWS Mobile services, including AWS Amplify and building a simple chatbot mobile application.
 
