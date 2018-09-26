@@ -3,6 +3,7 @@
 Before starting the workshop, ensure you have the below components installed.
   
 - [XCode](https://developer.apple.com/xcode/)/[Android Studio](https://developer.android.com/studio/)
+- [Create a Virtual Device on Android Studio](https://developer.android.com/studio/run/managing-avds)
 - Installing an IDE, such as [Visual Studio Code](https://code.visualstudio.com/download)
 - [Node.js](https://nodejs.org/en/download/) and [npm](https://www.npmjs.com/get-npm)
     ```
