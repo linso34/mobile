@@ -1,4 +1,4 @@
-# Building a simple "ChatBot" application in react native with AWS
+# Building a "ChatBot" application in react native with AWS
 
 The objective is to start to get familiar with AWS Mobile services, including AWS Amplify and building a simple chatbot mobile application.
 
