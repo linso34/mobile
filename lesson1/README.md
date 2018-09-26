@@ -1,7 +1,7 @@
 # Lesson 1 - Introduction to AWS Amplify and AWS Mobile Hub
 
-AWS provides 2 services to simplify the development of Mobile applications and especially to create the backend environment in the cloud, AWS Mobile Hub and AWS Amplify.
-You the workshop you can use either one of them.
+AWS provides 2 services to simplify the development of Mobile applications and especially to create the backend environment in AWS cloud, AWS Mobile Hub and AWS Amplify.
+For the workshop you can use either one.
 
 ## 1. AWS Mobile Hub
 
