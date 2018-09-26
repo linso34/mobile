@@ -132,11 +132,49 @@ aws cognito-identity get-identity-pool-roles --identity-pool-id us-east-1:identi
 ```
 
 - We would need to add Lex permissions on the authenticated IAM role
+
+<p align="center">
+  <img src="./images/Console01.png" />
+</p>
+
 - Go to the AWS Console > IAM > Roles
+
+<p align="center">
+  <img src="./images/IAM-01.png" />
+</p>
+
+<p align="center">
+  <img src="./images/IAM-02.png" />
+</p>
+
+<p align="center">
+  <img src="./images/IAM-03.png" />
+</p>
+
+
 - Search for mypp02-1111111111-authRole //The name of the role created by amplify
+
+<p align="center">
+  <img src="./images/IAM-04.png" />
+</p>
+
 - Update the role with LexRunBot policy and Attach it
 
 
+<p align="center">
+  <img src="./images/IAM-05.png" />
+</p>
 
+4. Test your application
 
+Either reload your application and run it using:
+```
+expo start # npm run android
+```
+
+<p align="center">
+  <img src="./images/Chatbot.png" />
+</p>
+
+You can then interact with your chatbot application after login in.
  
