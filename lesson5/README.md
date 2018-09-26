@@ -10,7 +10,7 @@
 
 1. Introduction to Amazon Lex
 
-2. [Create your Amazon Lex Chatbot](https://github.com/adamrb/amazon-ai-building-better-bots)
+2. [Create your Amazon Lex Chatbot](https://docs.aws.amazon.com/lex/latest/dg/getting-started-ex2.html)
 
 3. Integrate the chatbot with your mobile application
 
