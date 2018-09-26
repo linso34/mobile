@@ -39,3 +39,9 @@ Adding interactions to your backend through APIs.
 Adding interactions with chatbot.
 
 ### 8. Clean up your environment
+
+Delete all the resources created in your AWS environment
+
+- Amazon Lex Chatbot and AWS Lambda created for the chatbot
+- All resources created with Amplify `amplify delete` when located in your application directory
+- Any Lambda functions created aside of amplify
