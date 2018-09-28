@@ -108,3 +108,6 @@ Amplify.configure(aws_exports)
 ```
 - Run your application
 ` npm run android # npm run ios`
+
+
+For more information on AWS Amplify check [AWS Amplify](https://aws-amplify.github.io/amplify-js/media/react_guide)
