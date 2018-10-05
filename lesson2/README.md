@@ -8,12 +8,26 @@
 
 ## 2. Steps to add Authentication
 
-1. Add the authentication component to your AWS environment, Cognito, using AWS Amplify
+1. Add the authentication component to your AWS environment, Cognito,
+
+    a. Using AWS Amplify
 
 - Add Cognito in your backend using Amplify CLI
 ` amplify auth add`
 - Then push the configuration to build the resources and build it in AWS
 ` amplify push`
+
+    b. Using AWS Mobile Hub
+   
+- Add User Sign-in in your backend using AWS Mobile Hub CLI
+` awsmobile user-signin enable
+
+enabled: user-signin
+backend awsmobile project enabled features:
+user-signin
+`
+- Then push the configuration to build the resources
+` awsmobile push`
 
 2. Using Authenticator Component
 
