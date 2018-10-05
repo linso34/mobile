@@ -8,7 +8,9 @@
 
 ## 2. Steps to add Storage
 
-1. Add the storage component to your AWS environment using AWS Amplify
+1. Add the storage component to your AWS environment
+
+        a. Using AWS Amplify
 
 You can either implement a storage for content (Images, audio, video...) or a NoSQL database.
 
@@ -18,6 +20,21 @@ Select the appropriate options.
 
 - Then push the configuration to build the resources and build it in AWS
 ` amplify push`
+
+        b. Using AWS Mobile Hub
+
+- Create the storage resources
+```
+awsmobile user-files enable
+
+enabled: user-files
+backend awsmobile project enabled features:
+analytics, hosting, user-files, user-signin
+```
+- Push the configuration
+```
+awsmobile push
+```
 
 2. Using the Amplify React Native Photo Picker Component
 
