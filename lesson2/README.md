@@ -29,7 +29,8 @@ user-signin
 ```
 - Then push the configuration to build the resources
 ```
-awsmobile push```
+awsmobile push
+```
 
 2. Using Authenticator Component
 
