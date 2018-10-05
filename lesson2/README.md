@@ -20,14 +20,16 @@
     b. Using AWS Mobile Hub
    
 - Add User Sign-in in your backend using AWS Mobile Hub CLI
-` awsmobile user-signin enable
+```
+awsmobile user-signin enable
 
 enabled: user-signin
 backend awsmobile project enabled features:
 user-signin
-`
+```
 - Then push the configuration to build the resources
-` awsmobile push`
+```
+awsmobile push```
 
 2. Using Authenticator Component
 
