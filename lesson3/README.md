@@ -26,7 +26,9 @@ Select the appropriate options.
 - Create the storage resources
 ```
 awsmobile user-files enable
-
+```
+>> Output
+```
 enabled: user-files
 backend awsmobile project enabled features:
 analytics, hosting, user-files, user-signin
