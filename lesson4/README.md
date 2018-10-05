@@ -77,7 +77,23 @@ The push will create a new API Gateway along with a sample lambda function.
 4. Check on the AWS console the services created
 - Amazon API Gateway
 
+<p align="center">
+      <img src="../images/APIGW.png" />
+</p>
+
 - AWS Lambda
+
+<p align="center">
+      <img src="../images/LambdaFunction.png" />
+</p>
+
+<p align="center">
+      <img src="../images/LambdaFunction2.png" />
+</p>
+
+<p align="center">
+      <img src="../images/LambdaFunction3.png" />
+</p>
 
 5. Updating your application
 
