@@ -8,6 +8,8 @@
 
 ## 2. Steps to add API capabilities
 
+      a. Using AWS Amplify
+      
 AWS Amplify provides a solution to making HTTP REST and GraphQL endpoints. The following example will cover REST APIs.
 To learn more on the AWS Amplify API components, please refer to [AWS Amplify API](https://aws-amplify.github.io/amplify-js/media/api_guide)
 
@@ -51,6 +53,26 @@ amplify push
 Amplify will create the required services to expose a REST API using:
 - Amazon API Gateway with the required configuration
 - AWS Lambda functions
+
+      b. Using AWS Mobile Hub
+      
+- Create the API service + Lambda Function
+
+```
+awsmobile cloud-api enable
+```
+By default a new sample lambda function code will be added to your application repository
+
+>> Adding lambda function code on 
+/.../myApp02/awsmobilejs/backend/cloud-api/sampleLambda/
+
+- Push the configuration
+
+```
+awsmobile push
+```
+
+The push will create a new API Gateway along with a sample lambda function.
 
 4. Check on the AWS console the services created
 - Amazon API Gateway
